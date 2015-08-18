@@ -1,0 +1,126 @@
+		
+	#slide12-popup .slide-img {
+		top: -4.5%;
+		left: -11%;
+		width: 105%;
+	}
+	
+	#slide12-popup .slide-text {
+		top: 28%;
+	}
+	#slide12-popup .slide-btn[id^="s12p-btn"] {
+		width: 31.5%;
+		height: 10%;
+		color: #13133b;
+		text-align: center;
+		padding-top: 1.2%;
+		box-sizing: border-box;
+		border: 10px solid #13133b;
+		top: 15%;
+		text-transform: uppercase;
+		
+		&.active {
+			background-color: #13133b;
+			color: #fff;
+		}
+	}	
+	#slide12-popup #s12p-btn1 {
+		left: 2%;
+	}
+	#slide12-popup #s12p-btn2 {
+		left: 34.5%;
+	}
+	#slide12-popup #s12p-btn3 {
+		left: 67%;
+	}
+	
+	@media (min-width: 992px) {	
+		#slide12-popup .slide-btn[id^="s12p-btn"] {
+			background-color: #13133b;
+			color: #fff !important;
+			cursor: default !important;
+		}
+		#slide12-popup .slide-text {
+			display: inline-block !important;
+			width: 28%;
+			left: 2%;
+		}
+		#slide12-popup #s12p-text2 {
+			left: 34.5%;
+		}
+		#slide12-popup #s12p-text3 {
+			left: 67%;
+		}
+	}
+	
+	@media (max-width: 991px) {
+		#slide12-popup .slide-title {
+			top: -43% !important;
+		}
+		#slide12-popup #s12p-btn1 {
+			width: 90%;
+			left: 5%;
+			top: -25%;
+			border-width: 2px;
+			height: 15%;
+			padding-top: 1.75%;
+		}
+		#slide12-popup #s12p-btn2 {
+			width: 90%;
+			left: 5%;
+			top: -8%;
+			border-width: 2px;
+			height: 15%;
+			padding-top: 1.75%;
+		}
+		#slide12-popup #s12p-btn3 {
+			width: 90%;
+			left: 5%;
+			top: 9%;
+			border-width: 2px;
+			height: 15%;
+			padding-top: 1.75%;
+		}
+		#slide12-popup .slide-text {
+			top: 31%;
+		}
+		#slide12-popup #s12p-download {
+			top: 160%;
+		}
+	}
+		
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* ACTIVE ANIMATION (start) */
+	
+	/* ACTIVE ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (start) */
+	#slide12.in-left,
+	#slide12.in-right {
+		animation: none;
+	}
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (start) */
+	#slide12.out-left,
+	#slide12.out-right {
+		animation: none;	}
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	#slide12-popup,
+	#slide12-popup .slide-img,
+	#slide12-popup .slide-img .animate {
+		animation-fill-mode: both !important;
+	}
+	
+	body.slide12-popup #btn-sound {
+		display: none;
+	}
+	

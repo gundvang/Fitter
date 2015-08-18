@@ -1,0 +1,210 @@
+
+	#slide9 .slide-text {
+		top: 25%;
+	}	
+	#slide9 .slide-img {
+		top: 10%;
+		left: 20%;
+		width: 80%;
+	}
+	#slide9 #s9-back {
+		top: 10%;
+		left: 20%;
+		width: 80%;
+		height: 100%;
+		background-color: #d9d8de;
+	}
+	#slide9 #s9-floor {
+		top: 70%;
+		left: 0;
+		width: 100%;
+		height: 500%;
+		background-color: #b6b6bf;
+	}
+	
+	@media (max-width: 991px) {
+		#slide9 .slide-img {
+			width: 160%;
+			top: -30%;
+			left: -12%;
+		}
+		#slide9 #s9-binocular { 
+			display: none;
+		}
+		#slide9 #s9-back {
+			top: -30%;
+			left: -12%;
+			width: 160%;
+		}
+		#slide9 #s9-floor {
+			top: 90%;
+		}
+	}
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* ACTIVE ANIMATION (start) */	
+	#slide9 #s9-char1 #s9-char1Finger1 {
+    	animation: 800ms s9-char1Finger1 ease-in-out 0ms infinite alternate;
+    	transform-origin: 47.3% 47.4%;
+	}
+	@keyframes s9-char1Finger1 { 
+		from { transform: rotate(-10deg); }
+		to { transform: rotate(10deg); }
+	}
+	
+	#slide9 #s9-char1 #s9-char1Finger2 {
+    	animation: 450ms s9-char1Finger2 ease-in-out 0ms infinite alternate;
+    	transform-origin: 47.8% 45.9%;
+	}	
+	@keyframes s9-char1Finger2 { 
+		to { transform: rotate(15deg); }
+	}
+
+	#slide9 #s9-char1 #s9-char1Finger3 {
+    	animation: 500ms s9-char1Finger3 ease-in-out 0ms infinite alternate;
+    	transform-origin: 48% 44.7%;
+	}	
+	@keyframes s9-char1Finger3 { 
+		to { transform: rotate(20deg); }
+	}
+	
+	#slide9 #s9-char1 #s9-char1Finger4 {
+    	animation: 450ms s9-char1Finger4 ease-in-out 0ms infinite alternate;
+    	transform-origin: 47.4% 42.3%;
+	}	
+	@keyframes s9-char1Finger4 { 
+		to { transform: rotate(15deg); }
+	}
+	
+	#slide9 #s9-char1 #s9-char1Finger5 {
+    	animation: 400ms s9-char1Finger5 ease-in-out 0ms infinite alternate;
+    	transform-origin: 47.4% 42.2%;
+	}	
+	@keyframes s9-char1Finger5 { 
+		to { transform: rotate(10deg); }
+	}
+	
+	#slide9 #s9-char1 #s9-char1Finger6 {
+    	animation: 450ms s9-char1Finger6 ease-in-out 0ms infinite alternate;
+    	transform-origin: 46.9% 40.4%;
+	}	
+	@keyframes s9-char1Finger6 { 
+		to { transform: rotate(20deg); }
+	}
+	
+	#slide9 #s9-char1 #s9-char1Finger7 {
+    	animation: 800ms s9-char1Finger7 ease-in-out 0ms infinite alternate;
+    	transform-origin: 46.8% 39.3%;
+	}	
+	@keyframes s9-char1Finger7 { 
+		to { transform: rotate(15deg); }
+	}
+	
+	#slide9 #s9-bird div {
+    	animation: 6000ms s9-bird linear 0ms infinite normal;
+	}	
+	@keyframes s9-bird { 
+		from { transform: translate(100%,10%); opacity: 0; }
+		0.1% { opacity: 1; }
+		99.8% { opacity: 1; }
+		99.9% { transform: translate(-10%,-2.5%);  opacity: 0; }
+		to { transform: translate(100%,10%); opacity: 0; }
+	}
+	
+	#slide9 #s9-bird #s9-birdWing {
+    	animation: 275ms s9-birdWing ease-in-out 0ms infinite alternate;
+    	transform-origin: 19.7% 10.3%;
+	}	
+	@keyframes s9-birdWing { 
+		from { transform: rotate(-15deg); }
+		to { transform: rotate(60deg); }
+	}
+	/* ACTIVE ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (start) */
+	#slide9.in-left,
+	#slide9.in-right {
+		animation: none;
+		
+		#s9-bird img,
+		#s9-bird #s9-birdWing,
+		#s9-wall {  	animation: 250ms fadeIn linear 500ms; }
+		#s9-back {  	animation: 250ms fadeIn linear 750ms; }
+		#s9-table,
+		#s9-computer,
+		#s9-binocular {	animation: 500ms fromFadeDown50 @easeOutBack 500ms; }
+		#s9-char1Bottom, 
+		#s9-char1 {  	animation: 500ms fromFadeDown50 @easeOutBack 450ms; }
+	}
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT ANIMATION (start) */
+	#slide9.in-left {
+		animation: none;
+		
+		#s9-title {		animation: 250ms fromFadeLeft25 @easeOutBack 500ms; }
+		#s9-floor { 	animation: 1ms fadeIn linear 500ms; }
+	}
+	/* SLIDE IN-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-RIGHT ANIMATION (start) */
+	#slide9.in-right {
+		animation: none;
+		
+		#s9-floor { 	animation: 500ms fromFadeDown15 @easeOutBack 350ms; }
+	}
+	/* SLIDE IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (start) */
+	#slide9.out-left,
+	#slide9.out-right {
+		animation: none;
+		
+		#s9-bird,
+		#s9-back {  	animation: 200ms fadeOut linear; }
+		#s9-wall {  	animation: 200ms fadeOut linear 250ms; }
+		#s9-table,
+		#s9-computer,
+		#s9-binocular {	animation: 200ms toFadeDown50 @easeInBack 100ms; }
+		#s9-char1Bottom,
+		#s9-char1 {  	animation: 200ms toFadeDown50 @easeInBack 150ms; }
+	}
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT ANIMATION (start) */
+	#slide9.out-left {
+		animation: none;
+		
+		#s9-title {		display: none; }
+		#s9-floor { 	animation: 500ms toFadeDown15 @easeInBack; }
+	}
+	/* SLIDE OUT-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-RIGHT ANIMATION (start) */
+	#slide9.out-right {
+		#s9-title {		animation: 250ms toFadeLeft25 @easeInBack; }
+	}
+	/* SLIDE OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	#slide9,
+	#slide9 .slide-title,
+	#slide9 .slide-img,
+	#slide9 .slide-img .animate {
+		animation-fill-mode: both !important;
+	}
+	

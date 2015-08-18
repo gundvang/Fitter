@@ -1,0 +1,163 @@
+
+	#slide7 .slide-text {
+		top: 12.5%;
+	}
+	#slide7 .slide-img {
+		top: 10%;
+		left: 37.5%;
+		width: 60%;		
+	}
+	#slide7 #s7-floor {
+		top: 50%;
+		left: 0;
+		width: 100%;
+		height: 500%;
+		background-color: #cdcdd4;
+	}	
+	#slide7 #s7-char1 {	transform-origin: 25.7% 50%; }
+	#slide7 #s7-char2 {	transform-origin: 44.7% 50%; }
+	#slide7 #s7-char3 {	transform-origin: 61.5% 50%; }
+	#slide7 #s7-char4 {	transform-origin: 75% 50%; }
+	
+	@media (max-width: 991px) {
+		#slide7 .slide-img {
+			width: 120%;
+			left: -10%;
+			top: -45%;
+		}
+		#slide7 #s7-floor {
+			top: 30%;
+		}		
+	}
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+	
+	/* ACTIVE ANIMATION (start) */
+	 #slide7 #s7-char5 #s7-char5Arm {
+    	animation: 2000ms s7-char5Arm ease-in-out 0s infinite alternate;
+    	transform-origin: 38% 38%;
+	}	
+	@keyframes s7-char5Arm { 
+		to { transform: rotate(10deg); }
+	}
+	
+	#slide7 #s7-char1 #s7-char1Head {
+    	animation: 3000ms s7-char1Head ease-in-out 0ms infinite alternate;
+    	transform-origin: 25.7% 52.3%;
+	}
+	@keyframes s7-char1Head { 
+		from { transform: rotate(5deg); }
+		20% { transform: rotate(5deg); }
+		80% { transform: rotate(-5deg); }
+		to { transform: rotate(-5deg); }
+	}
+	#slide7 #s7-char2 #s7-char2Head {
+    	animation: 3000ms s7-char2Head ease-in-out 1000ms infinite alternate;
+    	transform-origin: 44.8% 49.8%;
+	}
+	@keyframes s7-char2Head { 
+		from { transform: rotate(5deg); }
+		20% { transform: rotate(5deg); }
+		80% { transform: rotate(-5deg); }
+		to { transform: rotate(-5deg); }
+	}
+	#slide7 #s7-char3 #s7-char3Head {
+    	animation: 3000ms s7-char3Head ease-in-out 500ms infinite alternate;
+    	transform-origin: 61.5% 50%;
+	}
+	@keyframes s7-char3Head { 
+		from { transform: rotate(5deg); }
+		20% { transform: rotate(5deg); }
+		80% { transform: rotate(-5deg); }
+		to { transform: rotate(-5deg); }
+	}
+	#slide7 #s7-char4 #s7-char4Head {
+    	animation: 3000ms s7-char4Head ease-in-out 1500ms infinite alternate;
+    	transform-origin: 75% 50%;
+	}
+	@keyframes s7-char4Head { 
+		from { transform: rotate(5deg); }
+		20% { transform: rotate(5deg); }
+		80% { transform: rotate(-5deg); }
+		to { transform: rotate(-5deg); }
+	}
+	/* ACTIVE ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT ANIMATION (start) */
+	#slide7.in-left {
+		animation: none;
+		
+		#s7-floor {		display: none; }
+		#s7-char5 {		animation: 500ms fromFadeUp50 @easeOutBack 350ms; }
+		#s7-board {		animation: 500ms fromFadeUp50 @easeOutBack 450ms; }
+		#s7-char1 {		animation: 250ms flipHorizontalIn ease-in-out 250ms; }
+		#s7-char2 {		animation: 250ms flipHorizontalIn ease-in-out 250ms; }
+		#s7-char3 {		animation: 250ms flipHorizontalIn ease-in-out 250ms; }
+		#s7-char4 {    	animation: 250ms flipHorizontalIn ease-in-out 250ms; }
+	}
+	/* SLIDE IN-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-RIGHT ANIMATION (start) */
+	#slide7.in-right {
+		animation: none;
+		
+		#s7-title {		animation: 250ms fromFadeLeft25 @easeOutBack 500ms; }
+		#s7-floor {    	animation: 500ms fromFadeDown10 @easeOutBack 500ms; }
+		#s7-char5 {    	animation: 500ms fromFadeUp50 @easeOutBack 600ms; }
+		#s7-board {    	animation: 500ms fromFadeUp50 @easeOutBack 700ms; }
+		#s7-char1 {    	animation: 500ms fromFadeDown50 @easeOutBack 800ms; }
+		#s7-char2 {    	animation: 500ms fromFadeDown50 @easeOutBack 900ms; }
+		#s7-char3 {    	animation: 500ms fromFadeDown50 @easeOutBack 1000ms; }
+		#s7-char4 {    	animation: 500ms fromFadeDown50 @easeOutBack 1100ms; }
+		
+		.btn-prev,
+		.btn-next {	animation: 200ms fadeIn linear 1500ms; }
+	}
+	/* SLIDE IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT ANIMATION (start) */
+	#slide7.out-left {
+		animation: none;
+		
+		#s7-title {		animation: 250ms toFadeLeft25 @easeInBack 0ms; }
+		#s7-floor {		animation: 250ms toFadeDown10 @easeInBack 250ms; }
+		#s7-char5 {		animation: 250ms toFadeUp50 @easeInBack 250ms; }
+		#s7-board {		animation: 250ms toFadeUp50 @easeInBack 200ms; }
+		#s7-char1 {		animation: 250ms toFadeDown50 @easeInBack 0ms; }
+		#s7-char2 {		animation: 250ms toFadeDown50 @easeInBack 50ms; }
+		#s7-char3 {		animation: 250ms toFadeDown50 @easeInBack 100ms; }
+		#s7-char4 {		animation: 250ms toFadeDown50 @easeInBack 150ms; }
+	}
+	/* SLIDE OUT-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-RIGHT ANIMATION (start) */
+	#slide7.out-right {
+		animation: none;
+		
+		#s7-title {		display: none; }
+		#s7-char5 {		animation: 250ms toFadeUp50 @easeInBack; }
+		#s7-board {		animation: 250ms toFadeUp50 @easeInBack 100ms; }
+		#s7-char1 {		animation: 250ms flipHorizontalOut ease-in-out 250ms; }
+		#s7-char2 {		animation: 250ms flipHorizontalOut ease-in-out 350ms; }
+		#s7-char3 {		animation: 250ms flipHorizontalOut ease-in-out 450ms; }
+		#s7-char4 {		animation: 250ms flipHorizontalOut ease-in-out 550ms; }
+	}
+	/* SLIDE OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	#slide7,
+	#slide7 .slide-title,
+	#slide7 .slide-img,
+	#slide7 .slide-img .animate {
+		animation-fill-mode: both !important;
+	}
+	

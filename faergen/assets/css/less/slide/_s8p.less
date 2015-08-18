@@ -1,0 +1,120 @@
+		
+	#slide8-popup .slide-img {
+		top: -4.5%;
+		left: -11%;
+		width: 105%;
+	}
+	
+	#slide8-popup .slide-text {
+		top: 28%;
+	}
+	#slide8-popup .slide-btn[id^="s8p-btn"] {
+		width: 31.5%;
+		height: 10%;
+		color: #13133b;
+		text-align: center;
+		padding-top: 1.2%;
+		box-sizing: border-box;
+		border: 10px solid #13133b;
+		top: 15%;
+		text-transform: uppercase;
+		
+		&.active {
+			background-color: #13133b;
+			color: #fff;
+		}
+	}	
+	#slide8-popup #s8p-btn1 {
+		left: 2%;
+	}
+	#slide8-popup #s8p-btn2 {
+		left: 34.5%;
+	}
+	#slide8-popup #s8p-btn3 {
+		left: 67%;
+	}
+	
+	@media (min-width: 992px) {	
+		#slide8-popup .slide-btn[id^="s8p-btn"] {
+			background-color: #13133b;
+			color: #fff !important;
+			cursor: default !important;
+		}
+		#slide8-popup .slide-text {
+			display: inline-block !important;
+			width: 28%;
+			left: 2%;
+		}
+		#slide8-popup #s8p-text2 {
+			left: 34.5%;
+		}
+		#slide8-popup #s8p-text3 {
+			left: 67%;
+		}
+	}
+	
+	@media (max-width: 991px) {
+		#slide8-popup .slide-title {
+			top: -43% !important;
+		}
+		#slide8-popup #s8p-btn1 {
+			width: 90%;
+			left: 5%;
+			top: -25%;
+			border-width: 2px;
+			height: 15%;
+			padding-top: 1.75%;
+		}
+		#slide8-popup #s8p-btn2 {
+			width: 90%;
+			left: 5%;
+			top: -8%;
+			border-width: 2px;
+			height: 15%;
+			padding-top: 1.75%;
+		}
+		#slide8-popup #s8p-btn3 {
+			width: 90%;
+			left: 5%;
+			top: 9%;
+			border-width: 2px;
+			height: 15%;
+			padding-top: 1.75%;
+		}
+		#slide8-popup .slide-text {
+			top: 31%;
+		}
+		#slide8-popup #s8p-download {
+			top: 130%;
+		}
+	}
+		
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (start) */
+	#slide12.in-left,
+	#slide12.in-right {
+		animation: none;
+	}
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (start) */
+	#slide12.out-left,
+	#slide12.out-right {
+		animation: none;	}
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	#slide8-popup,
+	#slide8-popup .slide-img,
+	#slide8-popup .slide-img .animate {
+		animation-fill-mode: both !important;
+	}
+	
+	body.slide8-popup #btn-sound {
+		display: none;
+	}
+	

@@ -1,0 +1,145 @@
+
+	#slide3 .slide-text {
+		top: 30%;
+	}
+	#slide3 .slide-img {
+		width: 100%;
+		top: 10%;
+		left: -5%;
+	}	
+	#slide3 #s3-bars {
+		position: absolute;
+		left: 0%;
+		top: 26.6%;
+		width: 100%;
+		height: 15.1%;
+		overflow: hidden;
+//		background-color: rgba(255,0,0,0.5);
+		
+		img {
+			margin-top: -12%;
+			margin-left: 3.5%;
+			width: 95%;
+		}
+	}
+	#slide3 #s3-floor {
+		top: 70%;
+		left: 0;
+		width: 100%;
+		height: 500%;
+		background-color: #b6b6bf;
+	}
+	
+	@media (max-width: 991px) {
+		#slide3 .slide-img {
+			width: 200%;
+			left: -95%;
+			top: -40%;
+		}
+		#slide3 #s3-shelfs {
+			display: none;
+		}
+		#slide3 #s3-floor {
+			top: 82%;
+		}
+	}
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* ACTIVE ANIMATION (start) */
+	#slide3 #s3-char1 #s3-char1Arm {
+    	animation: 4000ms s3-char1Arm ease-in-out 0ms infinite alternate;
+    	transform-origin: 63.9% 37.3%;
+	}
+	@keyframes s3-char1Arm { 
+		to { transform: rotate(5deg); }
+	}
+	
+	#slide3 #s3-char1 #s3-char1Head {
+    	animation: 4000ms s3-char1Head ease-in-out 0ms infinite alternate;
+    	transform-origin: 61.1% 36.7%;
+	}
+	@keyframes s3-char1Head { 
+		to { transform: rotate(5deg); }
+	}
+	
+	#slide3 #s3-computer #s3-bars img {
+    	animation: 10000ms s3-bars ease-in-out 0ms infinite alternate;
+	}
+	@keyframes s3-bars { 
+		to { transform: translate(0.45%,-24.5%); }
+	}
+	/* ACTIVE ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (start) */
+	#slide3.in-left,
+	#slide3.in-right {
+		animation: none;
+		
+		#s3-floor {		animation: 500ms fromFadeDown15 @easeOutBack 500ms; }
+		#s3-shelfs {	animation: 500ms fromFadeDown50 @easeOutBack 600ms; }
+		#s3-table,
+		#s3-computer,
+		#s3-bars {		animation: 500ms fromFadeDown50 @easeOutBack 700ms; }
+		#s3-char1Bottom,
+		#s3-char1,
+		#s3-chair {		animation: 500ms fromFadeDown50 @easeOutBack 800ms; }
+		
+		.btn-prev,
+		.btn-next {	animation: 200ms fadeIn linear 1100ms; }
+	}
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-RIGHT ANIMATION (start) */
+	#slide3.in-right {
+		#s3-title {		animation: 500ms fromFadeLeft25 @easeOutBack 500ms; }
+	}
+	/* SLIDE IN-RIGHT ANIMATION (end) */
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (start) */
+	#slide3.out-left,
+	#slide3.out-right {
+		animation: none;
+		
+		#s3-floor {		animation: 250ms toFadeDown15 @easeInBack 200ms; }
+		#s3-shelfs {	animation: 250ms toFadeDown50 @easeInBack 150ms; }
+		#s3-table,
+		#s3-computer,
+		#s3-bars {		animation: 250ms toFadeDown50 @easeInBack 100ms; }
+		#s3-char1Bottom,
+		#s3-char1,
+		#s3-chair {		animation: 250ms toFadeDown50 @easeInBack 50ms; }
+	}
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (end) */
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT ANIMATION (start) */
+	#slide3.out-left {
+		#s3-title {		animation: 250ms toFadeLeft25 @easeInBack 0ms; }
+	}
+	/* SLIDE OUT-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-RIGHT ANIMATION (start) */
+	#slide3.out-right {		
+		#s3-title {		display: none; }
+	}
+	/* SLIDE OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	#slide3,
+	#slide3 .slide-title,
+	#slide3 .slide-img,
+	#slide3 .slide-img .animate {
+		animation-fill-mode: both !important;
+	}
+	

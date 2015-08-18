@@ -1,0 +1,158 @@
+
+	#slide10 .slide-text {
+		top: 25%;
+	}	
+	#slide10 .slide-img {
+		top: 15%;
+		width: 90%;
+		left: 10%;
+	}	
+	#slide10 #s10-floor {
+		top: 70%;
+		left: 0;
+		width: 100%;
+		height: 500%;
+		background-color: #b6b6bf;
+	}
+	#slide10 #s10-char1 #s10-char1EyeClosed,
+	#slide10 #s10-char1 #s10-char1ArmRight2 {
+		opacity: 0;
+	}
+	
+	@media (max-width: 991px) {
+		#slide10 .slide-img {
+			width: 180%;
+			top: -20%;
+			left: -65%;
+		}
+		#slide10 #s10-floor {
+			top: 90%;
+		}
+	}
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* ACTIVE ANIMATION (start) */	
+	 #slide10 #s10-char1 #s10-char1EyeOpen {
+    	animation: 5000ms s10-char1EyeOpen ease-in-out 0ms infinite normal;
+    	transform-origin: 47.6% 74.4%;
+	}	
+	@keyframes s10-char1EyeOpen { 
+		from { opacity: 1; }
+		49.9% { opacity: 1; }
+		50% { opacity: 0; }
+		52% { opacity: 0; }
+		52.1% { opacity: 1; }
+		to { opacity: 1; }
+	}
+	
+	#slide10 #s10-char1 #s10-char1EyeClosed {
+    	animation: 5000ms s10-char1EyeClosed ease-in-out 0ms infinite normal;
+    	transform-origin: 47.6% 74.4%;
+	}	
+	@keyframes s10-char1EyeClosed { 
+		from { opacity: 0; }
+		49.9% { opacity: 0; }
+		50% { opacity: 1; }
+		52% { opacity: 1; }
+		52.1% { opacity: 0; }
+		to { opacity: 0; }
+	}
+	 #slide10 #s10-char1 #s10-char1ArmRight1 {
+    	animation: 8000ms s10-char1ArmRight1 ease-in-out 0ms infinite normal;
+    	transform-origin: 47.6% 74.4%;
+	}	
+	@keyframes s10-char1ArmRight1 { 
+		from { opacity: 1; }
+		49.9% { opacity: 1; }
+		50% { opacity: 0; }
+		to { opacity: 0; }
+	}
+	
+	#slide10 #s10-char1 #s10-char1ArmRight2 {
+    	animation: 8000ms s10-char1ArmRight2 ease-in-out 0ms infinite normal;
+    	transform-origin: 47.6% 74.4%;
+	}	
+	@keyframes s10-char1ArmRight2 { 
+		from { opacity: 0; }
+		49.9% { opacity: 0; }
+		50% { opacity: 1; }
+		to { opacity: 1; }
+	}
+	/* ACTIVE ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (start) */
+	#slide10.in-left,
+	#slide10.in-right {
+		animation: none;
+		
+		#s10-floor {	animation: 500ms fromFadeDown10 @easeOutBack 500ms; }
+		#s10-backdrop { animation: 500ms fromFadeDown50 @easeOutBack 700ms; }
+		#s10-char1 {	animation: 500ms fromFadeDown50 @easeOutBack 600ms; }
+		#s10-checkmark,
+		#s10-textBig, 
+		#s10-backdrop #s10-textSmall { animation: 500ms fadeIn ease-out 1500ms; }
+		
+		.btn-prev,
+		.btn-next {	animation: 200ms fadeIn linear 1800ms; }
+	}
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-RIGHT ANIMATION (start) */
+	#slide10.in-right {
+		animation: none;
+		
+		#s10-title {	animation: 250ms fromFadeLeft25 @easeOutBack 500ms; }
+		#s10-floor {	display: none; }
+		
+		.btn-prev,
+		.btn-next {	animation: 200ms fadeIn linear 1800ms; }
+	}
+	/* SLIDE IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (start) */
+	#slide10.out-left,
+	#slide10.out-right {
+		animation: none;
+		
+		#s10-char1 {  	animation: 250ms toFadeDown50 @easeInBack 0ms; }
+		#s10-backdrop { animation: 250ms toFadeDown50 @easeInBack 100ms; }
+		#s10-checkmark,
+		#s10-textBig { 	animation: 250ms toFadeDown50 @easeInBack 100ms; }
+	}
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT ANIMATION (start) */
+	#slide10.out-left {
+		#s10-title {	animation: 250ms toFadeLeft25 @easeInBack; }
+	}
+	/* SLIDE OUT-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-RIGHT ANIMATION (start) */
+	#slide10.out-right {
+		animation: none;
+		
+		#s10-title {	display: none; }
+		#s10-floor {  	animation: 250ms toFadeDown10 @easeInBack 150ms; }
+	}
+	/* SLIDE OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	#slide10,
+	#slide10 .slide-title,
+	#slide10 .slide-img,
+	#slide10 .slide-img .animate {
+		animation-fill-mode: both !important;
+	}
+	

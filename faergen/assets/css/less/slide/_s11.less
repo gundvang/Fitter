@@ -1,0 +1,157 @@
+
+	#slide11 .slide-text {
+		top: 15%;
+	}	
+	#slide11 .slide-img {
+		top: 25%;
+		left: 20%;
+		width: 100%;
+		width: 80%;
+	}
+	
+	#slide11 #s11-floor {
+		top: 75%;
+		left: 0;
+		width: 100%;
+		height: 500%;
+		background-color: #b6b6bf;
+	}
+	
+	#slide11 #s11-backdrop #s11-deskTop {
+		position: absolute;
+		top: 36.5%;
+		left: -100%;
+		width: 200%;
+		height: 500%;
+		background-color: #b6b6bf;
+	}
+	#slide11 #s11-backdrop #s11-deskBottom {
+		position: absolute;
+		top: 42%;
+		left: -100%;
+		width: 200%;
+		height: 500%;
+		background-color: #cacbd5;
+	}
+	#slide11 #s11-backdrop #s11-sign {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	@media (max-width: 991px) {
+		#slide11 .slide-img {
+			width: 180%;
+			top: -30%;
+			left: -45%;
+		}
+		#slide11 #s11-floor {
+			top: 85%;
+		}
+	}
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* ACTIVE ANIMATION (start) */	
+	#slide11 #s11-char1 #s11-char1ArmBack {
+    	animation: 4000ms s11-char1Arms ease-in-out 0ms infinite alternate;
+    	transform-origin: 64.7% 19.5%;
+	}
+	#slide11 #s11-char1 #s11-char1ArmBack2 {
+    	animation: 4000ms s11-char1Arms ease-in-out 0ms infinite alternate;
+    	transform-origin: 68% 21%;
+	}	
+	#slide11 #s11-char1ArmFront img {
+    	animation: 4000ms s11-char1Arms ease-in-out 0ms infinite alternate;
+    	transform-origin: 68% 21%;
+	}
+	@keyframes s11-char1Arms {
+		from { transform: rotate(-5deg); }
+		25% { transform: rotate(-5deg); }
+		to { transform: rotate(5deg); }
+	}
+	
+	#slide11 #s11-sign img {
+    	animation: 4000ms s11-sign ease-in-out 0ms infinite alternate;
+    	transform-origin: 68% 21%;
+	}
+	@keyframes s11-sign { 
+		from { transform: translate(0,0%); }
+		25% { transform: translate(0,0%); }
+		to { transform: translate(0,-3%); }
+	}
+	/* ACTIVE ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (start) */
+	#slide11.in-left,
+	#slide11.in-right {
+		animation: none;
+		
+		#s11-floor {			animation: 500ms fromFadeDown15 @easeOutBack 500ms; }
+		#s11-backdrop,
+		#s11-sign {				animation: 500ms fromFadeDown50 @easeOutBack 550ms; }
+		#s11-char1 {			animation: 500ms fromFadeDown50 @easeOutBack 700ms; }
+		#s11-char1ArmFront {	animation: 500ms s11-char1ArmFrontIn @easeOutBack 700ms; }
+		#s11-char2 {			animation: 500ms fromFadeDown25 @easeOutBack 600ms; }
+		
+		.btn-prev,
+		.btn-next {	animation: 200ms fadeIn linear 1000ms; }
+	}
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-RIGHT ANIMATION (start) */
+	#slide11.in-left {
+		animation: none;
+
+		#s11-title {			animation: 250ms fromFadeLeft25 @easeOutBack 500ms; }
+		#s11-floor { 			animation: 500ms fromFadeDown15 @easeOutBack 500ms; }
+	}
+	/* SLIDE IN-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (start) */
+	#slide11.out-left,
+	#slide11.out-right {
+		animation: none;
+		
+		#s11-floor {			animation: 250ms toFadeDown15 @easeInBack 150ms; }
+		#s11-backdrop,
+		#s11-sign {				animation: 250ms toFadeDown50 @easeInBack 125ms; }
+		#s11-char1,
+		#s11-char1ArmFront {	animation: 250ms toFadeDown50 @easeInBack 100ms; }
+		#s11-char2 {			animation: 250ms toFadeDown50 @easeInBack 200ms; }
+	}
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT ANIMATION (start) */
+	#slide11.out-left {
+		#s11-title {			display: none; }
+	}
+	/* SLIDE OUT-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-RIGHT ANIMATION (start) */
+	#slide11.out-right {
+		#s11-title {			animation: 250ms toFadeLeft25 @easeInBack; }
+	}
+	/* SLIDE OUT-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	#slide11,
+	#slide11 .slide-title,
+	#slide11 .slide-img,
+	#slide11 .slide-img .animate {
+		animation-fill-mode: both !important;
+	}
+	

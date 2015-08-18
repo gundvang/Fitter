@@ -1,0 +1,74 @@
+
+
+	/* SLIDE - GL-1 (start) */
+	.slide#gl-1 {
+		background-color: @bgcolor-primary;
+	}
+	.slide#gl-1 .slide-text#text-title {
+		left: 15%;
+		top: 80%;
+		width: 70%;
+		text-align: center;
+	}
+	.slide#gl-1 .slide-img {
+		left: 15%;
+		top: 5%;
+		width: 70%;
+	}
+	.slide#gl-1 .button-down {
+		animation: showOff 1000ms ease-in-out 0ms infinite alternate;
+	}
+	@keyframes showOff {
+		from { opacity: 0.5; transform: translate(0%,10%) scale(0.95); }
+		to { opacity: 1;  }
+	}
+	
+	.slide#gl-1 #img-bubble1 {
+		top: 7%;
+	}
+	
+	.slide#gl-1 #img-header {
+		left: 0%;
+		top: 0%;
+		width: 100%;
+	}
+	.slide#gl-1.in-up {
+		#img-background {
+			animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.300, 1.120);
+			animation-delay: 200ms;
+			animation-fill-mode: both;
+		}
+		#img-charHF {
+			animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.300, 1.120);
+			animation-delay: 400ms;
+			animation-fill-mode: both;
+		}
+		#img-charHHX {
+			animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.300, 1.120);
+			animation-delay: 500ms;
+			animation-fill-mode: both;
+		}
+		#img-charHTX {
+			animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.300, 1.120);
+			animation-delay: 600ms;
+			animation-fill-mode: both;
+		}
+		#img-charSTX {
+			animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.300, 1.120);
+			animation-delay: 700ms;
+			animation-fill-mode: both;
+		}
+		#img-bubble1 {
+			animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.300, 1.120);
+			animation-delay: 900ms;
+			animation-fill-mode: both;
+		}
+		#text-title {
+			animation: fadeIn 750ms ease-out;
+			animation-delay: 900ms;
+			animation-fill-mode: both;
+		}
+	}
+	/* SLIDE - GL-1 (end) */
+	
+	

@@ -1,0 +1,12 @@
+/* Webfont: TheWave */@font-face {
+    font-family: 'TheWave';
+    src: url('TheWave.eot'); /* IE9 Compat Modes */
+    src: url('TheWave.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('TheWave.woff') format('woff'), /* Modern Browsers */
+         url('TheWave.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('TheWave.svg#TheWave') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

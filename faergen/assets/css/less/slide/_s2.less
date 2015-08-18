@@ -1,0 +1,85 @@
+	
+	#slide2 .slide-img {
+		top: 0%;
+		left: -20%;
+		width: 120%;
+	}
+	#slide2 #s2-char1 {
+		top: 2%;
+	}
+	#slide2.in-right {
+		.slide-img {
+		  display: none;
+		}
+	}
+	#slide2.out-left {
+		animation: none;
+	}
+	
+	@media (max-width: 991px) {
+		#slide2 .slide-img {
+			width: 180%;
+			left: -40%;
+			top: -49%;
+		}
+		#slide2 #s2-char1 {
+			width: 250%;
+			left: -65%;
+			top: -35%;
+			
+			img {
+				margin-top: -11%;
+			}
+		}
+	}
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+	
+	/* SLIDE IN-LEFT ANIMATION (start) */
+	#slide2.in-left {
+		animation: none;
+		
+		#s2-char1 {		animation: 500ms fromFadeDown50 @easeOutBack 500ms; }
+		
+	}
+	/* SLIDE IN-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-RIGHT ANIMATION (start) */
+	#slide2.in-right {
+		animation: none;
+		
+		#s2-char1 {		animation: none; display: none; }
+	}
+	/* SLIDE IN-RIGHT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT ANIMATION (start) */
+	#slide2.out-left {
+		animation: none;
+		
+		#s2-char1 {		animation: none; }
+	}
+	/* SLIDE OUT-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-RIGHT ANIMATION (start) */
+	#slide2.out-right {
+		animation: none;
+		
+		#s2-char1 {	animation: 500ms fadeOut linear; }
+		#s2-char1 {	animation: 250ms toFadeDown50 @easeInBack; }
+	}
+	/* SLIDE OUT-RIGHT ANIMATION (end) */
+		
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	#slide2 .slide-img,
+	#slide2 .slide-img .animate,
+	#slide2 .btn-popup {
+		animation-fill-mode: both !important;
+	}
+	

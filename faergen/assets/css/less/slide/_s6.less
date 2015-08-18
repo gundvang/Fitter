@@ -1,0 +1,174 @@
+
+	#slide6 .slide-text {
+		top: 15%;
+	}
+	#slide6 #s6-backdrop #s6-back {
+		position: absolute;
+		top: 90%;
+		left: 0;
+		width: 100%;
+		height: 500%;
+		background-color: #d8d8dd;
+	}
+	
+	@media (max-width: 991px) {
+		#slide6 .slide-img {
+			width: 180%;
+			left: -65%;
+			top: -20%;
+		}
+		#slide6 #s6-backdrop #s6-delfin1,
+		#slide6 #s6-backdrop #s6-delfin2,
+		#slide6 #s6-backdrop #s6-delfin3 {
+			display: none;
+		}
+	}
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* ACTIVE ANIMATION (start) */
+	#slide6 #s6-char3 #s6-char3Arm {
+    	animation: 2000ms s6-char3Arm ease-in-out;
+		animation-iteration-count: infinite;
+	    animation-direction: alternate;
+    	animation-fill-mode: both;
+    	animation-delay: 0ms;
+    	transform-origin: 62.5% 40%;
+	}
+	@keyframes s6-char3Arm { 
+		to { transform: rotate(-10deg); }
+	}
+	#slide6 #s6-ding1 img {
+    	animation: 2500ms s6-ding1 ease-in-out 0s infinite alternate;
+	}
+	@keyframes s6-ding1 { 
+		to { transform: translate(0.25%, 1.5%); }
+	}
+	@keyframes s6-ding1IE { 
+		to { margin-left: 0.25%; margin-top: 1.5%; }
+	}
+	#slide6 #s6-ding2 img {
+    	animation: 3500ms s6-ding2 ease-in-out 250ms infinite alternate;
+	}
+	@keyframes s6-ding2 { 
+		to { transform: translate(0.25%, 0.75%); }
+	}
+	@keyframes s6-ding2IE { 
+		to { margin-left: 0.25%; margin-top: 0.75%; }
+	}
+	#slide6 #s6-backdrop #s6-delfin1 {
+    	animation: 10000ms s6-delfin1 linear 0ms infinite;
+    	transform-origin: 8.5% 47%;
+	}
+	@keyframes s6-delfin1 { 
+		from { transform: translate(-6%, 4%) rotate(-45deg); opacity:1;}
+		5% { transform: translate(-1.2%, 1.25%) rotate(-9deg); }
+		7.5% { transform: translate(1.2%, 0%) rotate(9deg); }
+		12.5% { transform: translate(6%, 4%) rotate(45deg); opacity: 1; }
+		12.51% { opacity: 0; }
+		to { transform: translate(-6%, 4%) rotate(-45deg); opacity:0;}
+	}
+	#slide6 #s6-backdrop #s6-delfin2 {
+		margin-top: 1.75%;
+		margin-left: 8%;
+    	animation: 10000ms s6-delfin2 linear 3500ms infinite;
+    	transform-origin: 13.9% 41%;
+	}
+	@keyframes s6-delfin2 { 
+		from { transform: translate(-6%, 7%) rotate(-45deg); opacity:1;}
+		5% { transform: translate(-1.2%, 2.25%) rotate(-9deg); }
+		7.5% { transform: translate(1.2%, 1%) rotate(9deg); }
+		12.5% { transform: translate(6%, 7%) rotate(45deg); opacity: 1; }
+		12.51% { opacity: 0; }
+		to { transform: translate(-6%, 7%) rotate(-45deg); opacity:0;}
+	}
+	#slide6 #s6-backdrop #s6-delfin3 {
+		margin-top: 2.25%;
+		margin-left: 10%;
+  		animation: 10000ms s6-delfin3 linear 7000ms infinite;
+    	transform-origin: 19.1% 36.8%;
+	}
+	@keyframes s6-delfin3 { 
+		from { transform: translate(-6%, 6%) rotate(-45deg); opacity:1;}
+		5% { transform: translate(-1.2%, 2.25%) rotate(-9deg); }
+		7.5% { transform: translate(1.2%, 1%) rotate(9deg); }
+		12.5% { transform: translate(6%, 6%) rotate(45deg); opacity: 1; }
+		12.51% { opacity: 0; }
+		to { transform: translate(-6%, 6%) rotate(-45deg); opacity:0;}
+	}
+	/* ACTIVE ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (start) */
+	#slide6.in-left,
+	#slide6.in-right {
+		animation: none;
+		
+		#s6-backdrop { 	animation: 500ms fromFadeDown50 @easeOutBack 500ms; }
+		#s6-char1 { 	animation: 500ms fromFadeDown50 @easeOutBack 600ms; }
+		#s6-char2 { 	animation: 500ms fromFadeDown50 @easeOutBack 650ms; }
+		#s6-char3 { 	animation: 500ms fromFadeDown50 @easeOutBack 700ms; }
+		#s6-ding1 { 	animation: 500ms fromFadeUp25 @easeOutBack 800ms; }
+		#s6-ding2 { 	animation: 500ms fromFadeUp25 @easeOutBack 850ms; }
+//		#s6-delfin1 { 	animation: 500ms fromFadeUp25 @easeOutBack 900ms; }
+//		#s6-delfin2 { 	animation: 500ms fromFadeUp25 @easeOutBack 950ms; }
+//		#s6-delfin3 { 	animation: 500ms fromFadeUp25 @easeOutBack 1000ms; }
+		
+		.btn-prev,
+		.btn-next {	animation: 200ms fadeIn linear 1300ms; }
+	}
+	/* SLIDE IN-LEFT/IN-RIGHT ANIMATION (end) */
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE IN-LEFT ANIMATION (start) */
+	#slide6.in-left {
+		#s6-title {		animation: 250ms fromFadeLeft25 @easeOutBack 500ms; }
+	}
+	/* SLIDE IN-LEFT ANIMATION (end) */
+	
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (start) */
+	#slide6.out-left,
+	#slide6.out-right {
+		animation: none;
+		
+		#s6-backdrop { 	animation: 250ms toFadeDown50 @easeInBack 0ms; }
+		#s6-char1 { 	animation: 250ms toFadeDown50 @easeInBack 50ms; }
+		#s6-char2 { 	animation: 250ms toFadeDown50 @easeInBack 100ms; }
+		#s6-char3 { 	animation: 250ms toFadeDown50 @easeInBack 150ms; }
+		#s6-ding1 { 	animation: 250ms toFadeUp25 @easeInBack 200ms; }
+		#s6-ding2 { 	animation: 250ms toFadeUp25 @easeInBack 200ms; }
+//		#s6-delfin1 { 	animation: 250ms toFadeUp25 @easeInBack 250ms; }
+//		#s6-delfin2 { 	animation: 250ms toFadeUp25 @easeInBack 250ms; }
+//		#s6-delfin3 { 	animation: 250ms toFadeUp25 @easeInBack 250ms; }
+	}
+	/* SLIDE OUT-LEFT/OUT-RIGHT ANIMATION (end) */
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-LEFT ANIMATION (start) */
+	#slide6.out-left {
+		#s6-title {		display: none; }
+	}
+	/* SLIDE OUT-LEFT ANIMATION (end) */
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	/* SLIDE OUT-RIGHT ANIMATION (start) */
+	#slide6.out-right {
+		#s6-title {		animation: 250ms toFadeLeft25 @easeInBack 0ms; }
+	}
+	/* SLIDE OUT-RIGHT ANIMATION (end) */
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+	#slide6,
+	#slide6 .slide-title,
+	#slide6 .slide-img,
+	#slide6 .slide-img .animate {
+		animation-fill-mode: both !important;
+	}
+	

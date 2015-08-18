@@ -1,0 +1,2632 @@
+@import 'fonts.css';
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* LESS VARS (start) */
+/* LESS VARS (end) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* KEYFRAMES (start) */
+@-webkit-keyframes slideFromDown {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+@keyframes slideFromDown {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+@-webkit-keyframes slideToDown {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+@keyframes slideToDown {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+@-webkit-keyframes slideFromUp {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes slideFromUp {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+@-webkit-keyframes slideToUp {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes slideToUp {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+}
+@-webkit-keyframes slideFromLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes slideFromLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+@-webkit-keyframes slideToLeft {
+  to {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes slideToLeft {
+  to {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+@-webkit-keyframes slideFromRight {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+@keyframes slideFromRight {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+@-webkit-keyframes slideToRight {
+  to {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+@keyframes slideToRight {
+  to {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+@-webkit-keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes scaleOut {
+  to {
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+}
+@keyframes scaleOut {
+  to {
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+}
+@-webkit-keyframes scaleFadeOut {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(0.5) translate3d(0, -50%, 0);
+            transform: scale(0.5) translate3d(0, -50%, 0);
+  }
+}
+@keyframes scaleFadeOut {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(0.5) translate3d(0, -50%, 0);
+            transform: scale(0.5) translate3d(0, -50%, 0);
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes scaleIn {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+@keyframes scaleIn {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+@-webkit-keyframes scaleFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.5) translate3d(0, -50%, 0);
+            transform: scale(0.5) translate3d(0, -50%, 0);
+  }
+}
+@keyframes scaleFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.5) translate3d(0, -50%, 0);
+            transform: scale(0.5) translate3d(0, -50%, 0);
+  }
+}
+@-webkit-keyframes slideUpFrom50Pct {
+  from {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+}
+@keyframes slideUpFrom50Pct {
+  from {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+}
+/* KEYFRAMES (end) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+@-webkit-keyframes fadeslideFromLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes fadeslideFromLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+@-webkit-keyframes gl1FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -100%, 0);
+            transform: translate3d(0%, -100%, 0);
+  }
+}
+@keyframes gl1FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -100%, 0);
+            transform: translate3d(0%, -100%, 0);
+  }
+}
+@-webkit-keyframes gl1LeftFadeUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, 100%, 0);
+            transform: translate3d(0%, 100%, 0);
+  }
+}
+@keyframes gl1LeftFadeUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, 100%, 0);
+            transform: translate3d(0%, 100%, 0);
+  }
+}
+@-webkit-keyframes gl1LeftFadeDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -100%, 0);
+            transform: translate3d(0%, -100%, 0);
+  }
+}
+@keyframes gl1LeftFadeDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -100%, 0);
+            transform: translate3d(0%, -100%, 0);
+  }
+}
+@-webkit-keyframes gl2SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(40%, 20%, 0);
+            transform: translate3d(40%, 20%, 0);
+  }
+  2% {
+    opacity: 1;
+  }
+}
+@keyframes gl2SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(40%, 20%, 0);
+            transform: translate3d(40%, 20%, 0);
+  }
+  2% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes gl2SlideFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(40%, 20%, 0);
+            transform: translate3d(40%, 20%, 0);
+  }
+  55% {
+    opacity: 0;
+  }
+  56% {
+    opacity: 1;
+  }
+}
+@keyframes gl2SlideFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(40%, 20%, 0);
+            transform: translate3d(40%, 20%, 0);
+  }
+  55% {
+    opacity: 0;
+  }
+  56% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes gl2FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -15%, 0);
+            transform: translate3d(0%, -15%, 0);
+  }
+}
+@keyframes gl2FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -15%, 0);
+            transform: translate3d(0%, -15%, 0);
+  }
+}
+@-webkit-keyframes gl3SlideIn {
+  from {
+    -webkit-transform: translate(-150%, 0%);
+            transform: translate(-150%, 0%);
+  }
+}
+@keyframes gl3SlideIn {
+  from {
+    -webkit-transform: translate(-150%, 0%);
+            transform: translate(-150%, 0%);
+  }
+}
+@-webkit-keyframes gl4SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, -100%);
+            transform: translate(0%, -100%);
+  }
+}
+@keyframes gl4SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, -100%);
+            transform: translate(0%, -100%);
+  }
+}
+@-webkit-keyframes gl4Left1Books {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(10%, 24%);
+            transform: translate(10%, 24%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(10%, 24%);
+            transform: translate(10%, 24%);
+  }
+}
+@keyframes gl4Left1Books {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(10%, 24%);
+            transform: translate(10%, 24%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(10%, 24%);
+            transform: translate(10%, 24%);
+  }
+}
+@-webkit-keyframes gl4Left1Pencil {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(-5%, 28%);
+            transform: translate(-5%, 28%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(-5%, 28%);
+            transform: translate(-5%, 28%);
+  }
+}
+@keyframes gl4Left1Pencil {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(-5%, 28%);
+            transform: translate(-5%, 28%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(-5%, 28%);
+            transform: translate(-5%, 28%);
+  }
+}
+@-webkit-keyframes gl4Left1Calculator {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(-12%, 31%);
+            transform: translate(-12%, 31%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(-12%, 31%);
+            transform: translate(-12%, 31%);
+  }
+}
+@keyframes gl4Left1Calculator {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(-12%, 31%);
+            transform: translate(-12%, 31%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(-12%, 31%);
+            transform: translate(-12%, 31%);
+  }
+}
+@-webkit-keyframes gl4Left1Book {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(10%, 44%);
+            transform: translate(10%, 44%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(10%, 44%);
+            transform: translate(10%, 44%);
+  }
+}
+@keyframes gl4Left1Book {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(10%, 44%);
+            transform: translate(10%, 44%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(10%, 44%);
+            transform: translate(10%, 44%);
+  }
+}
+@-webkit-keyframes gl4Left1Globe {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(-3%, 46%);
+            transform: translate(-3%, 46%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(-3%, 46%);
+            transform: translate(-3%, 46%);
+  }
+}
+@keyframes gl4Left1Globe {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translate(-3%, 46%);
+            transform: translate(-3%, 46%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(-3%, 46%);
+            transform: translate(-3%, 46%);
+  }
+}
+@-webkit-keyframes gl4Left2FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -25%, 0);
+            transform: translate3d(0%, -25%, 0);
+  }
+}
+@keyframes gl4Left2FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -25%, 0);
+            transform: translate3d(0%, -25%, 0);
+  }
+}
+@-webkit-keyframes gl4Left3FadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -50%, 0);
+            transform: translate3d(0%, -50%, 0);
+  }
+}
+@keyframes gl4Left3FadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -50%, 0);
+            transform: translate3d(0%, -50%, 0);
+  }
+}
+@-webkit-keyframes gl4Left3FadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-50%, 0%, 0);
+            transform: translate3d(-50%, 0%, 0);
+  }
+}
+@keyframes gl4Left3FadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-50%, 0%, 0);
+            transform: translate3d(-50%, 0%, 0);
+  }
+}
+@-webkit-keyframes gl4Left3FadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(50%, 0%, 0);
+            transform: translate3d(50%, 0%, 0);
+  }
+}
+@keyframes gl4Left3FadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(50%, 0%, 0);
+            transform: translate3d(50%, 0%, 0);
+  }
+}
+@-webkit-keyframes gl4Left4FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -25%, 0);
+            transform: translate3d(0%, -25%, 0);
+  }
+}
+@keyframes gl4Left4FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -25%, 0);
+            transform: translate3d(0%, -25%, 0);
+  }
+}
+@-webkit-keyframes gl4Left5FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -50%, 0);
+            transform: translate3d(0%, -50%, 0);
+  }
+}
+@keyframes gl4Left5FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -50%, 0);
+            transform: translate3d(0%, -50%, 0);
+  }
+}
+@-webkit-keyframes gl5SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, 100%);
+            transform: translate(0%, 100%);
+  }
+}
+@keyframes gl5SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, 100%);
+            transform: translate(0%, 100%);
+  }
+}
+@-webkit-keyframes gl5RightSlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, -100%);
+            transform: translate(0%, -100%);
+  }
+}
+@keyframes gl5RightSlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, -100%);
+            transform: translate(0%, -100%);
+  }
+}
+@-webkit-keyframes gl6Left1SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, -150%);
+            transform: translate(0%, -150%);
+  }
+}
+@keyframes gl6Left1SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, -150%);
+            transform: translate(0%, -150%);
+  }
+}
+@-webkit-keyframes gl6Left3SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, 150%);
+            transform: translate(0%, 150%);
+  }
+}
+@keyframes gl6Left3SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, 150%);
+            transform: translate(0%, 150%);
+  }
+}
+@-webkit-keyframes gl6Left4SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, 150%);
+            transform: translate(0%, 150%);
+  }
+}
+@keyframes gl6Left4SlideIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0%, 150%);
+            transform: translate(0%, 150%);
+  }
+}
+@-webkit-keyframes gl7FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -50%, 0);
+            transform: translate3d(0%, -50%, 0);
+  }
+}
+@keyframes gl7FadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0%, -50%, 0);
+            transform: translate3d(0%, -50%, 0);
+  }
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* PRESETS (start) */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #e4f3fb;
+  overflow: hidden;
+  font-family: 'HelveticaNeueLTStd', 'Helvetica Neue Lt Std', Helvetica, sans-serif;
+  color: #ffffff;
+  height: 100%;
+  font-size: 18px;
+}
+a {
+  color: #262626;
+  text-decoration: none;
+}
+.hidden {
+  display: none !important;
+}
+/* PRESETS (end) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ALERT BOXES (start) */
+.alert {
+  display: table;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 100000000000;
+  background-color: #ffffff;
+  color: #262626;
+}
+.alert .alert-content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.alert .alert-content .alert-box {
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 50px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  z-index: 10000;
+  height: 450px;
+}
+.alert .alert-content .alert-box p {
+  text-align: left;
+}
+.alert .alert-content .alert-box img {
+  position: relative;
+  border: 0;
+}
+.alert p {
+  position: relative;
+  text-align: left;
+  width: auto;
+  font-size: 30px;
+  line-height: 40px;
+}
+.alert .illustration {
+  position: relative;
+  margin-top: 40px;
+}
+.alert .illustration div {
+  position: absolute;
+  display: inline-block;
+  width: 20%;
+  top: 0px;
+}
+.alert .illustration div img {
+  width: 100%;
+}
+.alert .illustration div.safari {
+  left: 2.5%;
+}
+.alert .illustration div.explorer {
+  left: 27.5%;
+}
+.alert .illustration div.chrome {
+  left: 52.5%;
+}
+.alert .illustration div.firefox {
+  left: 77.5%;
+}
+/* ALERT BOXES (end) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* STYLES (start) */
+.slide-text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  font-weight: 200;
+  font-stretch: normal;
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 3vw;
+  line-height: 3.5vw;
+}
+.slide-img {
+  position: absolute;
+}
+.slide-img img {
+  width: 100%;
+}
+.color-white {
+  color: #ffffff;
+}
+.color-black {
+  color: #262626;
+}
+.color-primary {
+  color: #23bcee;
+}
+.bgcolor-primary {
+  background-color: #e4f3fb;
+}
+.bgcolor-secondary {
+  background-color: #80cef4;
+}
+.bgcolor-tetiary {
+  background-color: #008dd0;
+}
+.text-xsmall {
+  font-size: 1vw;
+  line-height: 1.5vw;
+}
+.text-small {
+  font-size: 2vw;
+  line-height: 2.5vw;
+}
+.text-medium {
+  font-size: 1.8vw;
+  line-height: 2.2vw;
+}
+.text-large {
+  font-size: 4vw;
+  line-height: 4.5vw;
+  font-weight: 400;
+  font-family: 'MaxLF-Light', Helvetica, sans-serif;
+}
+.text-large span {
+  text-transform: none;
+}
+/* STYLES (end) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* SLIDE DEFAULTS (start) */
+.slide .slide-text {
+  top: 5%;
+  left: 5%;
+  width: 90%;
+}
+.slide #text-description {
+  top: 15%;
+  left: 5%;
+  width: 90%;
+}
+.slide .slide-img {
+  top: 20%;
+  left: 25%;
+  width: 70%;
+}
+/* SLIDE DEFAULTS (end) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ANIMATRIX PRESETS (start) */
+#animatrix-scene {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+}
+.slide {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.slide.in {
+  -webkit-animation: 500ms fadeIn ease-in-out;
+          animation: 500ms fadeIn ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide.in-up {
+  -webkit-animation-name: slideFromUp;
+          animation-name: slideFromUp;
+}
+.slide.in-down {
+  -webkit-animation-name: slideFromDown;
+          animation-name: slideFromDown;
+}
+.slide.in-left {
+  -webkit-animation-name: slideFromLeft;
+          animation-name: slideFromLeft;
+}
+.slide.in-right {
+  -webkit-animation-name: slideFromRight;
+          animation-name: slideFromRight;
+}
+.slide.in-link {
+  -webkit-animation-name: slideFromDown;
+          animation-name: slideFromDown;
+}
+.slide.out {
+  -webkit-animation: 500ms fadeOut ease-in-out;
+          animation: 500ms fadeOut ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide.out-up {
+  -webkit-animation-name: slideToDown;
+          animation-name: slideToDown;
+}
+.slide.out-down {
+  -webkit-animation-name: slideToUp;
+          animation-name: slideToUp;
+}
+.slide.out-left {
+  -webkit-animation-name: slideToRight;
+          animation-name: slideToRight;
+}
+.slide.out-right {
+  -webkit-animation-name: slideToLeft;
+          animation-name: slideToLeft;
+}
+.slide.out-link {
+  -webkit-animation-name: slideToUp;
+          animation-name: slideToUp;
+}
+/* ANIMATRIX PRESETS (end) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.button-left.highlight {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1%;
+  height: 100%;
+  background-color: #008dd0;
+}
+.button-right.highlight {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 1%;
+  height: 100%;
+  background-color: #008dd0;
+}
+/* METABTN (start) */
+.metaBtn {
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+  bottom: 5%;
+  cursor: pointer;
+}
+.metaBtn img {
+  width: 100%;
+  height: auto;
+}
+.metaBtn:hover {
+  opacity: 1;
+}
+.metaBtn.left,
+.metaBtn.right {
+  font-family: 'MaxLF-Light', Helvetica, sans-serif;
+  padding: 1.5% 2% 1.25%;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.metaBtn.left {
+  left: 0.25%;
+  padding-left: 1.25%;
+  text-align: left;
+  background-image: url('../img/btn-left-bg.svg');
+  background-position: right;
+}
+.metaBtn.right {
+  left: auto;
+  right: 0.25%;
+  padding-right: 1.25%;
+  text-align: right;
+  background-image: url('../img/btn-right-bg.svg');
+  background-position: left;
+}
+.metaBtn.back {
+  background-image: url() !important;
+  bottom: 0%;
+  padding: 2%;
+  width: 6%;
+}
+.metaBtn.back.left {
+  left: 0%;
+}
+.metaBtn.back.right {
+  right: 0%;
+}
+.metaBtn.down {
+  top: auto;
+  bottom: 0%;
+  left: 48%;
+  width: 4%;
+  height: auto;
+  text-align: center;
+}
+.button-down {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  margin-left: -4%;
+  width: 8%;
+  cursor: pointer;
+}
+.button-down img {
+  width: 100%;
+}
+.button-down.popup {
+  bottom: 4%;
+}
+.button-up {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  margin-left: -4%;
+  width: 8%;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: opacity 200ms linear;
+          transition: opacity 200ms linear;
+}
+.button-up img {
+  width: 100%;
+}
+.button-up:hover {
+  opacity: 0.5;
+}
+.button-up.popup {
+  top: 7%;
+}
+.button-back {
+  position: absolute;
+  top: 1%;
+  left: 1.75%;
+  width: 10%;
+  cursor: pointer;
+  z-index: 100000000;
+}
+.button-back img {
+  width: 100%;
+}
+/* METABTN (end) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* VIEWPORT FIT (start) */
+.vpfit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+}
+/* VIEWPORT FIT (start) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* PAGINATION (start) */
+#pagination {
+  font-family: 'MaxLF-Light', Helvetica, sans-serif;
+  font-weight: 600;
+  position: fixed;
+  top: 50%;
+  right: 1%;
+  margin-top: -110px;
+  z-index: 99999;
+}
+body[class^="gl-1-"] #pagination,
+body[class^="gl-2-"] #pagination,
+body[class^="gl-3-"] #pagination,
+body[class^="gl-4-"] #pagination,
+body[class^="gl-5-"] #pagination,
+body[class^="gl-6-"] #pagination,
+body[class^="gl-7-"] #pagination {
+  display: none;
+}
+#pagination .link {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  opacity: 0.75;
+  position: relative;
+  -webkit-transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1);
+          transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1);
+  margin: 10px;
+  height: 16px;
+  width: 16px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  background-color: rgba(38, 38, 38, 0.2);
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  margin-right: 10px;
+}
+#pagination .link:before {
+  content: '';
+  position: absolute;
+  right: 19px;
+  top: -2px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #ffffff;
+  pointer-events: none;
+  -webkit-transition-property: all;
+          transition-property: all;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  right: 34px;
+  opacity: 0;
+}
+#pagination .link:hover:before {
+  right: 19px;
+  opacity: 1;
+}
+#pagination .link:hover {
+  opacity: 1;
+}
+#pagination .link.active {
+  background-color: rgba(38, 38, 38, 0.6);
+  border: 1px solid rgba(38, 38, 38, 0.7);
+}
+#pagination .link:after {
+  content: attr(data-title);
+  color: #ffffff;
+  display: inline-block;
+  -webkit-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
+  font-size: 16px;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 26px;
+  height: 30px;
+  top: -9px;
+  right: 26px;
+  font-weight: 600;
+  background-color: #ffffff;
+  padding: 6px 8px 10px;
+  color: #262626;
+  border-radius: 4px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition-property: all;
+          transition-property: all;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  right: 41px;
+}
+#pagination .link:hover:after {
+  right: 26px;
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  #pagination {
+    display: none;
+  }
+}
+/* PAGINATION (end) */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* SLIDE - GL-1 (start) */
+.slide#gl-1 {
+  background-color: #e4f3fb;
+}
+.slide#gl-1 .slide-text#text-title {
+  left: 15%;
+  top: 80%;
+  width: 70%;
+  text-align: center;
+}
+.slide#gl-1 .slide-img {
+  left: 15%;
+  top: 5%;
+  width: 70%;
+}
+.slide#gl-1 .button-down {
+  -webkit-animation: showOff 1000ms ease-in-out 0ms infinite alternate;
+          animation: showOff 1000ms ease-in-out 0ms infinite alternate;
+}
+@-webkit-keyframes showOff {
+  from {
+    opacity: 0.5;
+    -webkit-transform: translate(0%, 10%) scale(0.95);
+            transform: translate(0%, 10%) scale(0.95);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes showOff {
+  from {
+    opacity: 0.5;
+    -webkit-transform: translate(0%, 10%) scale(0.95);
+            transform: translate(0%, 10%) scale(0.95);
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slide#gl-1 #img-bubble1 {
+  top: 7%;
+}
+.slide#gl-1 #img-header {
+  left: 0%;
+  top: 0%;
+  width: 100%;
+}
+.slide#gl-1.in-up #img-background {
+  -webkit-animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1.in-up #img-charHF {
+  -webkit-animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1.in-up #img-charHHX {
+  -webkit-animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1.in-up #img-charHTX {
+  -webkit-animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1.in-up #img-charSTX {
+  -webkit-animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1.in-up #img-bubble1 {
+  -webkit-animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl1FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1.in-up #text-title {
+  -webkit-animation: fadeIn 750ms ease-out;
+          animation: fadeIn 750ms ease-out;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-1 (end) */
+/* SLIDE - GL-1 LEFT (start) */
+.slide#gl-1-left {
+  background-color: #008dd0;
+}
+.slide#gl-1-left #text-title {
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+}
+.slide#gl-1-left .slide-img {
+  top: 20%;
+  left: 10%;
+  width: 80%;
+}
+.slide#gl-1-left.in #img-layer1 {
+  -webkit-animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-left.in #img-layer2 {
+  -webkit-animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 550ms;
+          animation-delay: 550ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-left.in #img-layer3 {
+  -webkit-animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-left.in #img-layer4 {
+  -webkit-animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 650ms;
+          animation-delay: 650ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-left.in #img-layer5 {
+  -webkit-animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-left.in #img-layer6 {
+  -webkit-animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-left.in #img-layer7 {
+  -webkit-animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-left.in #img-layer8 {
+  -webkit-animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 850ms;
+          animation-delay: 850ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-left.in #img-layer9 {
+  -webkit-animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeUp 500ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-left.in #img-layer10 {
+  -webkit-animation: gl1LeftFadeDown 750ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+          animation: gl1LeftFadeDown 750ms cubic-bezier(0.175, 0.885, 0.3, 1.15);
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-1 LEFT (end) */
+/* SLIDE - GL-1 RIGHT (start) */
+.slide#gl-1-right {
+  background-color: #008dd0;
+}
+.slide#gl-1-right #text-title {
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+}
+.slide#gl-1-right #text-description {
+  top: 86%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  color: #a2e1f9;
+}
+.slide#gl-1-right .slide-img {
+  top: 18%;
+  left: 10%;
+  width: 80%;
+}
+.slide#gl-1-right.in #img-layer1 {
+  -webkit-animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+          animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-right.in #img-layer2 {
+  -webkit-animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+          animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-right.in #img-layer3 {
+  -webkit-animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+          animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-right.in #img-layer4 {
+  -webkit-animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+          animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-1-right.in #img-layer5 {
+  -webkit-animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+          animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.05);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-1 RIGHT (end) */
+/* SLIDE - GL-2 (start) */
+.slide#gl-2 {
+  background-color: #80cef4;
+}
+.slide#gl-2 #text-title {
+  top: 20%;
+  left: 9%;
+  width: 41%;
+}
+.slide#gl-2 #text-description {
+  top: 36%;
+  left: 9%;
+  width: 41%;
+}
+.slide#gl-2 .illustration {
+  left: auto;
+  right: -10%;
+  top: auto;
+  bottom: -30%;
+  width: 50%;
+}
+.slide#gl-2 #img-globeShadow,
+.slide#gl-2 #img-globe,
+.slide#gl-2 #img-charHHX {
+  bottom: -33%;
+}
+.slide#gl-2 #img-box {
+  left: 5%;
+  top: 5%;
+  width: 45%;
+}
+.slide#gl-2 #img-orig {
+  left: auto;
+  right: -10%;
+  top: auto;
+  bottom: -30%;
+  width: 50%;
+}
+.slide#gl-2.in-up #img-globeShadow,
+.slide#gl-2.in-down #img-globeShadow {
+  -webkit-animation: slideFromRight 500ms ease-out;
+          animation: slideFromRight 500ms ease-out;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-2.in-up #img-globe,
+.slide#gl-2.in-down #img-globe {
+  -webkit-animation: slideFromRight 500ms ease-out;
+          animation: slideFromRight 500ms ease-out;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-2.in-up #img-charHHX,
+.slide#gl-2.in-down #img-charHHX {
+  -webkit-animation: gl2FadeIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: gl2FadeIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-2.in-up #img-charMan,
+.slide#gl-2.in-down #img-charMan {
+  -webkit-animation: gl2SlideIn 750ms cubic-bezier(0, 0, 0.4, 1.75);
+          animation: gl2SlideIn 750ms cubic-bezier(0, 0, 0.4, 1.75);
+  -webkit-animation-delay: 1250ms;
+          animation-delay: 1250ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-2.in-up #img-charWoman,
+.slide#gl-2.in-down #img-charWoman {
+  -webkit-animation: gl2SlideIn 750ms cubic-bezier(0, 0, 0.4, 1.75);
+          animation: gl2SlideIn 750ms cubic-bezier(0, 0, 0.4, 1.75);
+  -webkit-animation-delay: 1250ms;
+          animation-delay: 1250ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-2.in-up #img-charManArm,
+.slide#gl-2.in-down #img-charManArm {
+  -webkit-animation: gl2SlideFadeIn 750ms cubic-bezier(0, 0, 0.4, 1.75);
+          animation: gl2SlideFadeIn 750ms cubic-bezier(0, 0, 0.4, 1.75);
+  -webkit-animation-delay: 1250ms;
+          animation-delay: 1250ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-2 (end) */
+/* SLIDE - GL-2 LEFT (start) */
+.slide#gl-2-left {
+  background-color: #008dd0;
+}
+.slide#gl-2-left #text-description {
+  top: 10%;
+  left: 5%;
+  width: 50%;
+}
+.slide#gl-2-left .slide-img {
+  top: 15%;
+  left: 10%;
+  width: 80%;
+}
+.slide#gl-2-left.in {
+  /*
+		#img-boxLeft {
+			animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.300, 1.250);
+			animation-delay: 700ms;
+			animation-fill-mode: both;
+		}
+		#img-boxRight {
+			animation: gl1FadeIn 500ms cubic-bezier(0.175, 0.885, 0.300, 1.250);
+			animation-delay: 500ms;
+			animation-fill-mode: both;
+		}
+*/
+}
+.slide#gl-2-left.in #img-layer2 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-2-left.in #img-layer3 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-2-left.in #img-layer4 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-2-left.in #img-layer5 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-2 LEFT (end) */
+/* SLIDE - GL-3 (start) */
+.slide#gl-3 {
+  background-color: #e4f3fb;
+}
+.slide#gl-3 .slide-img {
+  left: 5%;
+  top: 5%;
+  width: 40%;
+}
+.slide#gl-3 #text-title {
+  left: 50%;
+  top: 10%;
+  width: 45%;
+}
+.slide#gl-3 #text-description {
+  left: 50%;
+  top: 33%;
+  width: 45%;
+}
+.slide#gl-3.in-up #img-charHF,
+.slide#gl-3.in-down #img-charHF {
+  -webkit-animation: gl3SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+          animation: gl3SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-3.in-up #img-charHHX,
+.slide#gl-3.in-down #img-charHHX {
+  -webkit-animation: gl3SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+          animation: gl3SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-3.in-up #img-charHTX,
+.slide#gl-3.in-down #img-charHTX {
+  -webkit-animation: gl3SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+          animation: gl3SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-3.in-up #img-charSTX,
+.slide#gl-3.in-down #img-charSTX {
+  -webkit-animation: gl3SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+          animation: gl3SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-3 (end) */
+/* SLIDE - GL-3 RIGHT (start) */
+.slide[id^="gl-3-right"] {
+  background-color: #008dd0;
+}
+.slide[id^="gl-3-right"] #text-title {
+  left: 15%;
+  top: 24%;
+  width: 60%;
+}
+.slide#gl-3-right-hf #text-title {
+  color: #00a2de;
+}
+.slide#gl-3-right-hhx #text-title {
+  color: #0297bf;
+}
+.slide#gl-3-right-htx #text-title {
+  color: #3c67af;
+}
+.slide#gl-3-right-stx #text-title {
+  color: #a22422;
+}
+.slide[id^="gl-3-right"] #text-description {
+  left: 15%;
+  top: 32%;
+  width: 60%;
+}
+.slide[id^="gl-3-right"] .illustration {
+  left: 10%;
+  top: 15%;
+  width: 80%;
+}
+.slide[id^="gl-3-right"] .button {
+  cursor: pointer;
+  opacity: 0.75;
+  -webkit-transition: opacity 250ms linear;
+          transition: opacity 250ms linear;
+}
+.slide[id^="gl-3-right"] .button:hover,
+.slide[id^="gl-3-right"] .button.active {
+  opacity: 1;
+}
+.slide[id^="gl-3-right"] #img-btnHF {
+  left: 77.5%;
+  top: 20%;
+  width: 10%;
+}
+.slide[id^="gl-3-right"] #img-btnHHX {
+  left: 77.2%;
+  top: 29%;
+  width: 10%;
+}
+.slide[id^="gl-3-right"] #img-btnHTX {
+  left: 77%;
+  top: 37.2%;
+  width: 10%;
+}
+.slide[id^="gl-3-right"] #img-btnSTX {
+  left: 76.75%;
+  top: 46%;
+  width: 10%;
+}
+.slide#gl-3-right-hf #img-charHF {
+  left: 60%;
+  top: 45%;
+  width: 15%;
+}
+.slide#gl-3-right-hhx #img-charHHX {
+  left: 60%;
+  top: 49%;
+  width: 14%;
+}
+.slide#gl-3-right-htx #img-charHTX {
+  left: 63%;
+  top: 48%;
+  width: 12%;
+}
+.slide#gl-3-right-stx #img-charSTX {
+  left: 57%;
+  top: 50%;
+  width: 18%;
+}
+.slide[id^="gl-3-right"].in-link,
+.slide[id^="gl-3-right"].in-up,
+.slide[id^="gl-3-right"].in-down {
+  -webkit-animation: none;
+          animation: none;
+  z-index: 1000;
+  background-color: transparent;
+}
+.slide[id^="gl-3-right"].in-link #img-btnHF,
+.slide[id^="gl-3-right"].in-up #img-btnHF,
+.slide[id^="gl-3-right"].in-down #img-btnHF,
+.slide[id^="gl-3-right"].in-link #img-btnHHX,
+.slide[id^="gl-3-right"].in-up #img-btnHHX,
+.slide[id^="gl-3-right"].in-down #img-btnHHX,
+.slide[id^="gl-3-right"].in-link #img-btnHTX,
+.slide[id^="gl-3-right"].in-up #img-btnHTX,
+.slide[id^="gl-3-right"].in-down #img-btnHTX,
+.slide[id^="gl-3-right"].in-link #img-btnHF,
+.slide[id^="gl-3-right"].in-up #img-btnHF,
+.slide[id^="gl-3-right"].in-down #img-btnHF {
+  -webkit-animation: none;
+          animation: none;
+  display: block;
+}
+.slide[id^="gl-3-right"].in-link #img-orig,
+.slide[id^="gl-3-right"].in-up #img-orig,
+.slide[id^="gl-3-right"].in-down #img-orig,
+.slide[id^="gl-3-right"].in-link #text-title,
+.slide[id^="gl-3-right"].in-up #text-title,
+.slide[id^="gl-3-right"].in-down #text-title,
+.slide[id^="gl-3-right"].in-link #text-description,
+.slide[id^="gl-3-right"].in-up #text-description,
+.slide[id^="gl-3-right"].in-down #text-description,
+.slide[id^="gl-3-right"].in-link #img-charHF,
+.slide[id^="gl-3-right"].in-up #img-charHF,
+.slide[id^="gl-3-right"].in-down #img-charHF,
+.slide[id^="gl-3-right"].in-link #img-charHHX,
+.slide[id^="gl-3-right"].in-up #img-charHHX,
+.slide[id^="gl-3-right"].in-down #img-charHHX,
+.slide[id^="gl-3-right"].in-link #img-charHTX,
+.slide[id^="gl-3-right"].in-up #img-charHTX,
+.slide[id^="gl-3-right"].in-down #img-charHTX,
+.slide[id^="gl-3-right"].in-link #img-charSTX,
+.slide[id^="gl-3-right"].in-up #img-charSTX,
+.slide[id^="gl-3-right"].in-down #img-charSTX {
+  -webkit-animation: fadeIn 500ms linear;
+          animation: fadeIn 500ms linear;
+}
+.slide[id^="gl-3-right"].out-link,
+.slide[id^="gl-3-right"].out-up,
+.slide[id^="gl-3-right"].out-down {
+  z-index: 100;
+  -webkit-animation: none;
+          animation: none;
+}
+.slide[id^="gl-3-right"].out-link #img-btnHF,
+.slide[id^="gl-3-right"].out-up #img-btnHF,
+.slide[id^="gl-3-right"].out-down #img-btnHF,
+.slide[id^="gl-3-right"].out-link #img-btnHHX,
+.slide[id^="gl-3-right"].out-up #img-btnHHX,
+.slide[id^="gl-3-right"].out-down #img-btnHHX,
+.slide[id^="gl-3-right"].out-link #img-btnHTX,
+.slide[id^="gl-3-right"].out-up #img-btnHTX,
+.slide[id^="gl-3-right"].out-down #img-btnHTX,
+.slide[id^="gl-3-right"].out-link #img-btnSTX,
+.slide[id^="gl-3-right"].out-up #img-btnSTX,
+.slide[id^="gl-3-right"].out-down #img-btnSTX {
+  -webkit-animation: none;
+          animation: none;
+  display: none;
+}
+.slide[id^="gl-3-right"].out-link #text-title,
+.slide[id^="gl-3-right"].out-up #text-title,
+.slide[id^="gl-3-right"].out-down #text-title,
+.slide[id^="gl-3-right"].out-link #text-description,
+.slide[id^="gl-3-right"].out-up #text-description,
+.slide[id^="gl-3-right"].out-down #text-description,
+.slide[id^="gl-3-right"].out-link #img-charHF,
+.slide[id^="gl-3-right"].out-up #img-charHF,
+.slide[id^="gl-3-right"].out-down #img-charHF,
+.slide[id^="gl-3-right"].out-link #img-charHHX,
+.slide[id^="gl-3-right"].out-up #img-charHHX,
+.slide[id^="gl-3-right"].out-down #img-charHHX,
+.slide[id^="gl-3-right"].out-link #img-charHTX,
+.slide[id^="gl-3-right"].out-up #img-charHTX,
+.slide[id^="gl-3-right"].out-down #img-charHTX,
+.slide[id^="gl-3-right"].out-link #img-charSTX,
+.slide[id^="gl-3-right"].out-up #img-charSTX,
+.slide[id^="gl-3-right"].out-down #img-charSTX {
+  -webkit-animation: fadeOut 500ms linear;
+          animation: fadeOut 500ms linear;
+}
+/* SLIDE - GL-3 RIGHT (end) */
+/* SLIDE - GL-4 (start) */
+.slide#gl-4 {
+  background-color: #80cef4;
+}
+.slide#gl-4 #text-title {
+  top: 15%;
+  left: 9%;
+  width: 41%;
+}
+.slide#gl-4 #text-description {
+  top: 24%;
+  left: 9%;
+  width: 39%;
+}
+/*
+	.slide#gl-4 .illustration {
+		left: auto;
+		right: -10%;
+		top: auto;
+		bottom: -10%;
+		width: 125%;
+	}
+*/
+.slide#gl-4 .illustration {
+  left: auto;
+  right: -2%;
+  top: auto;
+  bottom: -2%;
+  width: 110%;
+}
+.slide#gl-4 #img-box {
+  left: 5%;
+  top: 5%;
+  width: 45%;
+}
+.slide#gl-4.in-up #img-layer2,
+.slide#gl-4.in-down #img-layer2 {
+  -webkit-animation: gl4SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+          animation: gl4SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4.in-up #img-layer3,
+.slide#gl-4.in-down #img-layer3 {
+  -webkit-animation: gl4SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+          animation: gl4SlideIn 750ms cubic-bezier(0, 0, 0.3, 1.2);
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-4 (end) */
+/* SLIDE - GL-4 LEFT (start) */
+.slide[id^="gl-4-left"] {
+  background-color: #008dd0;
+}
+.slide[id^="gl-4-left"] #text-description {
+  top: 29%;
+  left: 16%;
+  width: 36%;
+}
+.slide[id^="gl-4-left"] .slide-img {
+  top: 15%;
+  left: 10%;
+  width: 80%;
+}
+.slide#gl-4-left-1 #img-books,
+.slide#gl-4-left-1 #img-pencil,
+.slide#gl-4-left-1 #img-calculator,
+.slide#gl-4-left-1 #img-book,
+.slide#gl-4-left-1 #img-globe {
+  opacity: 0;
+}
+.slide#gl-4-left-1.in-up #img-books,
+.slide#gl-4-left-1.in-left #img-books {
+  -webkit-animation: gl4Left1Books 500ms ease-in;
+          animation: gl4Left1Books 500ms ease-in;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-1.in-up #img-pencil,
+.slide#gl-4-left-1.in-left #img-pencil {
+  -webkit-animation: gl4Left1Pencil 500ms ease-in;
+          animation: gl4Left1Pencil 500ms ease-in;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-1.in-up #img-calculator,
+.slide#gl-4-left-1.in-left #img-calculator {
+  -webkit-animation: gl4Left1Calculator 500ms ease-in;
+          animation: gl4Left1Calculator 500ms ease-in;
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-1.in-up #img-book,
+.slide#gl-4-left-1.in-left #img-book {
+  -webkit-animation: gl4Left1Book 500ms ease-in;
+          animation: gl4Left1Book 500ms ease-in;
+  -webkit-animation-delay: 2000ms;
+          animation-delay: 2000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-1.in-up #img-globe,
+.slide#gl-4-left-1.in-left #img-globe {
+  -webkit-animation: gl4Left1Globe 500ms ease-in;
+          animation: gl4Left1Globe 500ms ease-in;
+  -webkit-animation-delay: 2500ms;
+          animation-delay: 2500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-2.in-up #img-layer2,
+.slide#gl-4-left-2.in-down #img-layer2 {
+  -webkit-animation: gl4Left2FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left2FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-2.in-up #img-layer3,
+.slide#gl-4-left-2.in-down #img-layer3 {
+  -webkit-animation: gl4Left2FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left2FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-2.in-up #img-layer4,
+.slide#gl-4-left-2.in-down #img-layer4 {
+  -webkit-animation: gl4Left2FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left2FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-2.in-up #img-layer5,
+.slide#gl-4-left-2.in-down #img-layer5 {
+  -webkit-animation: gl4Left2FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left2FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-3.in-up #img-layer2,
+.slide#gl-4-left-3.in-down #img-layer2 {
+  -webkit-animation: gl4Left3FadeInUp 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left3FadeInUp 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1250ms;
+          animation-delay: 1250ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-3.in-up #img-layer3,
+.slide#gl-4-left-3.in-down #img-layer3 {
+  -webkit-animation: gl4Left3FadeInUp 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left3FadeInUp 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-3.in-up #img-layer4,
+.slide#gl-4-left-3.in-down #img-layer4 {
+  -webkit-animation: gl4Left3FadeInLeft 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left3FadeInLeft 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-3.in-up #img-layer5,
+.slide#gl-4-left-3.in-down #img-layer5 {
+  -webkit-animation: gl4Left3FadeInRight 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left3FadeInRight 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-3.in-up #img-layer6,
+.slide#gl-4-left-3.in-down #img-layer6 {
+  -webkit-animation: gl4Left3FadeInUp 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left3FadeInUp 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-3.in-up #img-layer7,
+.slide#gl-4-left-3.in-down #img-layer7 {
+  -webkit-animation: gl4Left3FadeInUp 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left3FadeInUp 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-4.in-up #img-layer2,
+.slide#gl-4-left-4.in-down #img-layer2 {
+  -webkit-animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-4.in-up #img-layer3,
+.slide#gl-4-left-4.in-down #img-layer3 {
+  -webkit-animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-4.in-up #img-layer4,
+.slide#gl-4-left-4.in-down #img-layer4 {
+  -webkit-animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-4.in-up #img-layer5,
+.slide#gl-4-left-4.in-down #img-layer5 {
+  -webkit-animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-4.in-up #img-layer6,
+.slide#gl-4-left-4.in-down #img-layer6 {
+  -webkit-animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-4.in-up #img-layer7,
+.slide#gl-4-left-4.in-down #img-layer7 {
+  -webkit-animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-4.in-up #img-layer8,
+.slide#gl-4-left-4.in-down #img-layer8 {
+  -webkit-animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl4Left4FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-5.in-down #img-layer2 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-5.in-down #img-layer3 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-5.in-down #img-layer4 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-5.in-down #img-layer5 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-5.in-down #img-layer6 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-4-left-5.in-down #img-layer7 {
+  -webkit-animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl4Left5FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-4 LEFT (end) */
+/* SLIDE - GL-5 (start) */
+.slide#gl-5 {
+  background-color: #e4f3fb;
+}
+.slide#gl-5 .illustration {
+  left: -8%;
+  top: auto;
+  bottom: -10%;
+  width: 110%;
+}
+.slide#gl-5 #text-title {
+  top: 6%;
+  left: 43%;
+  width: 41%;
+}
+.slide#gl-5 #text-description {
+  top: 21%;
+  left: 43%;
+  width: 39%;
+}
+/*
+	.slide#gl-5.out-down {
+		animation: scaleFadeOut 500ms ease-in;
+		animation-fill-mode: both;
+	}
+*/
+/* SLIDE - GL-5 (end) */
+.slide#gl-5.in-up #img-layer1,
+.slide#gl-5.in-down #img-layer1 {
+  -webkit-animation: gl5SlideIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: gl5SlideIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5.in-up #img-layer2,
+.slide#gl-5.in-down #img-layer2 {
+  -webkit-animation: gl5SlideIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: gl5SlideIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5.in-up #img-layer3,
+.slide#gl-5.in-down #img-layer3 {
+  -webkit-animation: gl5SlideIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: gl5SlideIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5.in-up #img-layer4,
+.slide#gl-5.in-down #img-layer4 {
+  -webkit-animation: gl5SlideIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: gl5SlideIn 750ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-5 (end) */
+/* SLIDE - GL-5 LEFT (start) */
+.slide#gl-5-left {
+  background-color: #008dd0;
+}
+.slide#gl-5-left #text-title {
+  left: 5%;
+  top: 5%;
+  width: 80%;
+}
+.slide#gl-5-left #text-description {
+  left: 5%;
+  top: 20%;
+  width: 80%;
+}
+.slide#gl-5-left .illustration {
+  top: 5%;
+  left: 10%;
+  width: 80%;
+}
+.slide#gl-5-left.in #img-layer1 {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5-left.in #img-layer2 {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5-left.in #img-layer3 {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5-left.in #img-layer4 {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5-left.in #img-layer5 {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5-left.in #img-layer6 {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5-left.in #img-layer7 {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-5 LEFT (end) */
+/* SLIDE - GL-5 RIGHT (start) */
+.slide#gl-5-right {
+  background-color: #008dd0;
+}
+.slide#gl-5-right #text-description {
+  top: 15%;
+  left: 7%;
+  width: 50%;
+}
+.slide#gl-5-right .slide-img {
+  top: 15%;
+  left: 10%;
+  width: 80%;
+}
+.slide#gl-5-right.in #img-boxLeft {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5-right.in #img-layer1 {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-5-right.in #img-layer2 {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-5 RIGHT (end) */
+/* SLIDE - GL-6 (start) */
+.slide#gl-6 {
+  background-color: #80cef4;
+}
+.slide#gl-6 #text-title {
+  top: 14%;
+  left: 9%;
+  width: 39%;
+}
+.slide#gl-6 #text-description {
+  top: 22%;
+  left: 9%;
+  width: 39%;
+}
+.slide#gl-6 #img-box {
+  left: 5%;
+  top: 5%;
+  width: 45%;
+}
+.slide#gl-6 .illustration {
+  left: auto;
+  right: 4%;
+  top: auto;
+  bottom: 10%;
+  width: 40%;
+}
+.slide#gl-6.in-up #img-layer1,
+.slide#gl-6.in-down #img-layer1 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6.in-up #img-layer2,
+.slide#gl-6.in-down #img-layer2 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6.in-up #img-layer3,
+.slide#gl-6.in-down #img-layer3 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6.in-up #img-layer4,
+.slide#gl-6.in-down #img-layer4 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6.in-up #img-layer5,
+.slide#gl-6.in-down #img-layer5 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6.in-up #img-layer5Hand,
+.slide#gl-6.in-down #img-layer5Hand {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-6 (end) */
+/* SLIDE - GL-6 LEFT (start) */
+.slide[id^="gl-6-left"] {
+  background-color: #008dd0;
+}
+.slide[id^="gl-6-left"] #text-description {
+  top: 15%;
+  left: 8%;
+  width: 90%;
+}
+.slide#gl-6-left-1 #text-description {
+  top: 15%;
+  left: 10%;
+  width: 90%;
+}
+.slide#gl-6-left-2 #text-description {
+  top: 20%;
+  left: 12%;
+  width: 90%;
+}
+.slide#gl-6-left-4 #text-description {
+  top: 8%;
+  left: 10%;
+  width: 90%;
+}
+.slide#gl-6-left-1 .illustration {
+  top: 15%;
+  left: 50%;
+  width: 45%;
+}
+.slide#gl-6-left-2 .illustration {
+  top: 5%;
+  left: 55%;
+  width: 40%;
+}
+.slide#gl-6-left-3 .illustration {
+  top: 15%;
+  left: 10%;
+  width: 100%;
+}
+.slide#gl-6-left-4 .illustration {
+  top: 10%;
+  left: 45%;
+  width: 40%;
+}
+.slide[id^="gl-6-left"] #img-boxLeft {
+  top: 15%;
+  left: 10%;
+  width: 40%;
+}
+.slide#gl-6-left-1.in-up #img-layer1,
+.slide#gl-6-left-1.in-left #img-layer1 {
+  -webkit-animation: gl6Left1SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl6Left1SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6-left-2.in-up #img-layer1,
+.slide#gl-6-left-2.in-down #img-layer1 {
+  -webkit-animation: gl6Left1SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl6Left1SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6-left-3.in-up #img-layer1,
+.slide#gl-6-left-3.in-down #img-layer1 {
+  -webkit-animation: gl6Left3SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl6Left3SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6-left-3.in-up #img-layer2,
+.slide#gl-6-left-3.in-down #img-layer2 {
+  -webkit-animation: gl6Left3SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl6Left3SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6-left-4.in-up #img-layer1,
+.slide#gl-6-left-4.in-down #img-layer1 {
+  -webkit-animation: gl6Left4SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl6Left4SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-6-left-4.in-up #img-layer2,
+.slide#gl-6-left-4.in-down #img-layer2 {
+  -webkit-animation: gl6Left4SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl6Left4SlideIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-6 LEFT (end) */
+/* SLIDE - GL-7 (start) */
+.slide#gl-7 {
+  background-color: #e4f3fb;
+}
+.slide#gl-7 .illustration {
+  left: auto;
+  right: 20%;
+  top: auto;
+  bottom: 5%;
+  width: 60%;
+}
+.slide#gl-7 #text-title {
+  top: 5%;
+  left: 15%;
+  width: 70%;
+}
+.slide#gl-7 #text-description {
+  top: 15%;
+  left: 15%;
+  width: 70%;
+}
+.slide#gl-7.in-up #img-layer1,
+.slide#gl-7.in-down #img-layer1 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer2,
+.slide#gl-7.in-down #img-layer2 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer3,
+.slide#gl-7.in-down #img-layer3 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer4,
+.slide#gl-7.in-down #img-layer4 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer5,
+.slide#gl-7.in-down #img-layer5 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer6,
+.slide#gl-7.in-down #img-layer6 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer7,
+.slide#gl-7.in-down #img-layer7 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer8,
+.slide#gl-7.in-down #img-layer8 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer9,
+.slide#gl-7.in-down #img-layer9 {
+  -webkit-animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 500ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer10,
+.slide#gl-7.in-down #img-layer10 {
+  -webkit-animation: gl7FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+          animation: gl7FadeIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.12);
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7.in-up #img-layer11,
+.slide#gl-7.in-down #img-layer11 {
+  -webkit-animation: fadeIn 200ms linear;
+          animation: fadeIn 200ms linear;
+  -webkit-animation-delay: 2400ms;
+          animation-delay: 2400ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-7 (end) */
+/* SLIDE - GL-7 RIGHT (start) */
+.slide#gl-7-right {
+  background-color: #008dd0;
+}
+.slide#gl-7-right #text-description {
+  top: 15%;
+  left: 5%;
+  width: 60%;
+}
+.slide#gl-7-right .slide-img {
+  top: 15%;
+  left: 10%;
+  width: 80%;
+}
+.slide#gl-7-right.in #img-boxLeft {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.slide#gl-7-right.in #img-boxRight {
+  -webkit-animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+          animation: gl5RightSlideIn 750ms cubic-bezier(0.175, 0.885, 0.3, 1.25);
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+/* SLIDE - GL-7 RIGHT (end) */
