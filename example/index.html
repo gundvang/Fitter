@@ -1,21 +1,47 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Theatrix example</title>
+		<title>Fitter example</title>
 		<link type="text/css" rel="stylesheet" href="assets/style.css" />
 	</head>
 	<body>
 
-		<div class="fitter" data-fitter="test" data-position="relative" data-orientation="vertical">Scene 1</div>
-		<div class="text scene01-title">Scene 1 - left</div>
-		<div class="text scene11-title">Scene 1 - right</div>
-		<div class="text scene2-title">Scene 2</div>
-		<div class="text scene02-title">Scene 2 - left</div>
-		<div class="text scene12-title">Scene 2 - right</div>
-		<div class="text scene3-title">Scene 3</div>
-		<div class="text scene4-title">Scene 4</div>
+		<div class="fitter fixed" data-fitter="position:fixed; orientation:vertical; location:center;">
+			<p>position: fixed</p>
+			<p>orientation: vertical</p>
+			<p>location: center</p>
+		</div>
+		<div class="fitter absolute" data-fitter="position:absolute; orientation:vertical; location:right;">
+			<p>position: absolute</p>
+			<p>orientation: vertical</p>
+			<p>location: right</p>
+		</div>
 
-		<script type="text/javascript" src="vendors/jquery-2.1.4.min.js"></script>
+		<div class="fitter relative" data-fitter="position:relative; orientation:horizontal; location:center;">
+			<p>position: relative</p>
+			<p>orientation: horizontal</p>
+			<p>location: center</p>
+		</div>
+
+		<div class="fitter fixed" data-fitter="position:fixed; orientation:horizontal; location:center; size:cover;">
+			<p>position: fixed</p>
+			<p>orientation: horizontal</p>
+			<p>location: center</p>
+			<p>size: cover</p>
+		</div>
+
+		<div class="fitter absolute" data-fitter="position:absolute; orientation:horizontal; location:bottom; size:cover;">
+			<p>position: absolute</p>
+			<p>orientation: horizontal</p>
+			<p>location: bottom</p>
+			<p>size: cover</p>
+		</div>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<script type="text/javascript" src="vendor/jquery-2.1.4.min.js"></script>
 		<script type="text/javascript" src="../fitter.js"></script>
 		<script type="text/javascript" src="assets/script.js"></script>
 	</body>
