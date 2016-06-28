@@ -1,8 +1,8 @@
-# Fitter (in development)
-Fitter makes it possible to wrap elements in wrappers that maintain a set ratio even when resized and center it in the viewport if needed.
+# FitterJS (in development)
+FitterJS makes it possible to wrap elements in wrappers that maintain a set ratio even when resized and center it in the viewport if needed.
 
 ## Requirements
-Fitter requires [jQuery](https://jquery.com/) (2.1.4 minimum) for its functionality to work correctly.  
+FitterJS requires [jQuery](https://jquery.com/) (2.1.4 minimum) for its functionality to work correctly.  
 
 
 ### data-tag

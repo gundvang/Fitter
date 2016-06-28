@@ -1,7 +1,7 @@
 var Fitter = {
 	info: {
 		version: '0.4',
-		documentation: 'https://github.com/gundvang/fitter',
+		documentation: 'https://github.com/gundvang/FitterJS',
 	},
 	enabled: true,
 	settings: {
